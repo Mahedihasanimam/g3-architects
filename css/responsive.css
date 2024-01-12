@@ -1,20 +1,26 @@
 /* small device  */
 
+@media screen and (max-width:300px) {
+    .main-nav{
+        flex-direction: column;
+    }
+}
+
 @media screen and (max-width:575px) {
     .btn-primary {
         font-size: 20px;
       }
-    .navigation{
-        flex-direction: column;
+    .container{
+        width: 90%;
     }
-    .main-nav{
+    .navigation,.feature,.experience-container{
         flex-direction: column;
     }
     .main-nav li{
         padding: 10px 0px;
     }
     .nav-title {
-        font-size: 1rem;
+        font-size: 2rem;
       }
       .banner-text{
         width: 100%;
@@ -25,15 +31,12 @@
       button.btn-primary {
         padding: 5px;
     }
-    .feature {
-        flex-direction: column;
-      }
       .feature-title {
         width: 100%;
       }
 }
 @media screen and (min-width:575px) and (max-width:991px) {
-    .navigation{
+    .navigation,.feature,.experience-container{
         flex-direction: column;
     }
     .main-nav{
@@ -44,9 +47,6 @@
       }
       .banner-title {
         font-size: 2rem;
-      }
-      .feature {
-        flex-direction: column;
       }
       .feature-title {
         width: 100%;

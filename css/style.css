@@ -74,7 +74,9 @@ ul > li a {
   font-size: 4rem;
   font-weight: 700;
 }
-.banner-dec {
+.banner-dec,
+.experience-dec,
+.card-dec {
   color: #727272;
   font-size: 1rem;
   font-weight: 400;
@@ -90,7 +92,7 @@ ul > li a {
 .feature-content {
   display: grid;
   grid-gap: 1.5rem;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
 }
 .feature-title {
   margin: auto;
@@ -119,4 +121,63 @@ ul > li a {
 }
 .feature-title * {
   padding: 15px 0px;
+}
+
+/* experience section  */
+.experience-container {
+  display: flex;
+  justify-content: space-between;
+  gap: 100px;
+  margin: 100px auto;
+}
+.experience-title {
+  color: #131313;
+  font-size: 45px;
+  font-weight: 700;
+  border-left: 5px solid #FF900E;
+  padding-left: 20px;
+
+}
+.experience-card h4 {
+  color: #131313;
+  font-size: 20px;
+  font-weight: 600;
+}
+.experience-card {
+    padding: 30px;
+  border-radius: 8px;
+  background: #fff;
+  box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
+}
+.experience-content img{
+    height: 900px;
+}
+.experience-text{
+    width: 80%;
+}
+.experience-content{
+    position: relative
+}
+.subexp h1{
+    color: #FFF;
+text-align: center;
+font-size: 65px;
+font-weight: 700;
+line-height: 70px; /* 107.692% */
+width: fit-content;
+
+}
+.subexp p{
+    text-align: center;
+    font-size: 25px;
+}
+.subexp{
+    border-radius: 8px;
+background: #FF900E;
+padding: 45px;
+color: #fff;
+width: 80%;
+position: absolute;
+top: 90%;
+left: -15%;
 }
