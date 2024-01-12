@@ -1,0 +1,122 @@
+/* work sans fonts  */
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+/* universal selector  */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+.container {
+  width: 70%;
+  max-width: 1440px;
+  margin: auto;
+}
+img {
+  max-width: 100%;
+}
+.btn-primary {
+  border-radius: 8px;
+  background: #ff900e;
+  border: none;
+  color: #ffff;
+  font-size: 20px;
+}
+button.btn-primary {
+  padding: 1em;
+}
+/* navigation section  */
+header {
+  background: rgba(255, 144, 14, 0.1);
+}
+.navigation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 4rem 0;
+}
+.main-nav {
+  display: flex;
+}
+ul > li {
+  list-style: none;
+  margin-left: 2rem;
+}
+ul > li a {
+  text-decoration: none;
+  color: #424242;
+  font-size: 18px;
+  font-weight: 500;
+  text-transform: capitalize;
+  /* 144.444% */
+}
+.nav-title {
+  color: #131313;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+/* banner section  */
+.banner {
+  padding: 50px 0px;
+}
+.banner-container * {
+  padding: 10px;
+}
+.banner-text {
+  width: 60%;
+  margin: auto;
+  text-align: center;
+}
+.banner-title {
+  color: #131313;
+  font-size: 4rem;
+  font-weight: 700;
+}
+.banner-dec {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+
+/* feature section  */
+.feature {
+  margin: 100px auto;
+  display: flex;
+  gap: 4rem;
+}
+.feature-content {
+  display: grid;
+  grid-gap: 1.5rem;
+  grid-template-columns: repeat(2,1fr);
+}
+.feature-title {
+  margin: auto;
+  width: 40%;
+}
+.feature-title h3 {
+  color: #727272;
+  font-size: 2.5rem;
+  font-weight: 500;
+}
+.of-Our {
+  color: #131313;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.Features {
+  color: #ff900e;
+  font-size: 2.5rem;
+  font-weight: 700;
+}
+.feature-title p {
+  color: #727272;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 26px; /* 162.5% */
+}
+.feature-title * {
+  padding: 15px 0px;
+}
