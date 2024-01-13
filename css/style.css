@@ -69,7 +69,8 @@ ul > li a {
   margin: auto;
   text-align: center;
 }
-.banner-title {
+.banner-title,
+.facts-title {
   color: #131313;
   font-size: 4rem;
   font-weight: 700;
@@ -113,7 +114,8 @@ ul > li a {
   font-size: 2.5rem;
   font-weight: 700;
 }
-.feature-title p {
+.feature-title p,
+.facts-dec {
   color: #727272;
   font-size: 1rem;
   font-weight: 400;
@@ -134,9 +136,8 @@ ul > li a {
   color: #131313;
   font-size: 45px;
   font-weight: 700;
-  border-left: 5px solid #FF900E;
+  border-left: 5px solid #ff900e;
   padding-left: 20px;
-
 }
 .experience-card h4 {
   color: #131313;
@@ -144,40 +145,90 @@ ul > li a {
   font-weight: 600;
 }
 .experience-card {
-    padding: 30px;
+  padding: 30px;
   border-radius: 8px;
   background: #fff;
   box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.06);
 }
-.experience-content img{
-    height: 900px;
+.experience-content img {
+  height: 900px;
 }
-.experience-text{
-    width: 80%;
+.experience-text {
+  width: 80%;
 }
-.experience-content{
-    position: relative
+.experience-content {
+  position: relative;
 }
-.subexp h1{
-    color: #FFF;
-text-align: center;
-font-size: 65px;
-font-weight: 700;
-line-height: 70px; /* 107.692% */
-width: fit-content;
+.subexp h1 {
+  color: #fff;
+  text-align: center;
+  font-size: 65px;
+  font-weight: 700;
+  line-height: 70px; /* 107.692% */
+  width: fit-content;
+}
+.subexp p {
+  text-align: center;
+  font-size: 25px;
+}
+.subexp {
+  border-radius: 8px;
+  background: #ff900e;
+  padding: 45px;
+  color: #fff;
+  width: 80%;
+  position: absolute;
+  top: 90%;
+  left: -15%;
+}
 
+/* facts-section  */
+
+.facts-section {
+  margin: 100px auto;
 }
-.subexp p{
-    text-align: center;
-    font-size: 25px;
+
+.facts-text * {
+  padding: 10px 0px;
 }
-.subexp{
-    border-radius: 8px;
-background: #FF900E;
-padding: 45px;
-color: #fff;
-width: 80%;
-position: absolute;
-top: 90%;
-left: -15%;
+.facts-card-container {
+  display: flex;
+  justify-content: space-between;
+  margin: 100px auto;
+}
+.facts-card {
+  text-align: center;
+  border-radius: 8px;
+  border: 1px solid #ff900e;
+  padding: 2.5rem;
+ max-width:50em;
+ margin: auto;
+}
+.facts-card > h3{
+  color: #424242;
+font-size: 45px;
+font-weight: 600;
+}
+
+/* sponsor-section */
+.sponsor-section{
+  margin: 100px auto;
+}
+.sponsor-container{
+  margin: 30px 0;
+  /* justify-content: space-evenly; */
+}
+.sponsor{
+  border: none;
+}
+
+
+/* footer section  */
+footer{
+  border-radius: 8px;
+  background: #FFF4E7;
+}
+footer > p{
+  text-align: center;
+  padding: 10px 0px;
 }

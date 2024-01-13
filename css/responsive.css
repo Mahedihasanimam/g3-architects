@@ -13,7 +13,7 @@
     .container{
         width: 90%;
     }
-    .navigation,.feature,.experience-container{
+    .navigation,.feature,.experience-container,.facts-card-container{
         flex-direction: column;
     }
     .main-nav li{
@@ -34,9 +34,13 @@
       .feature-title {
         width: 100%;
       }
+      .facts-card{
+        margin-bottom: 20px;
+      }
+
 }
 @media screen and (min-width:575px) and (max-width:991px) {
-    .navigation,.feature,.experience-container{
+    .navigation,.feature,.experience-container,.facts-card-container{
         flex-direction: column;
     }
     .main-nav{
@@ -50,6 +54,9 @@
       }
       .feature-title {
         width: 100%;
+      }
+      .facts-card{
+        margin-bottom: 20px;
       }
 }
 @media screen and (max-width:1150px) {
